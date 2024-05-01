@@ -16,7 +16,7 @@ const Navbar = () => {
         width={32}
         height={32}
         className='max-sm:size-10'/>
-        <p className='text-[26px] font-extrabold text-white max-sm:hidden'>Yoom</p>
+        <p className='text-[26px] font-extrabold text-white max-sm:hidden'>NixMeet</p>
       </Link>
 
       <SignedIn>
