@@ -99,13 +99,13 @@ const MeetingRoom = () => {
           </div>
         </button>
         {!isPersonalRoom && <EndCallButton />}
-        <button onClick={() => camera.toggle()}>
+        {/* <button onClick={() => camera.toggle()}>
           {!isMute ? (
             <span className="bg-white" />
           ) : (
             <span className="bg-white" />
           )}
-        </button>
+        </button> */}
       </div>
     </section>
   );
